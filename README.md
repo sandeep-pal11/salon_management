@@ -45,24 +45,22 @@ A comprehensive web-based platform for managing salon appointments, services, pr
 
 ## 📸 Screenshots
 
-### 1. User Side - Home
+### 1. Admin Side - Dashboard
+![Admin Dashboard](screenshots/admin_dashboard.png)
+*Comprehensive dashboard for managing all aspects of the salon.*
+
+### 2. User Side - Home
 ![User Home](screenshots/user_home.png)
 *Landing page showcasing salon highlights and services.*
 
-### 2. User Side - Appointment Page
+### 3. User Side - Appointment Page
 ![Appointment Page](screenshots/user_appointment.png)
 *Integrated appointment booking system.*
 
-### 3. User Side - Shop Page
+### 4. User Side - Shop Page
 ![Shop Page](screenshots/user_shop.png)
 *Online store for salon products.*
-
-### 4. Admin Side - Dashboard
-![Admin Dashboard](screenshots/admin_dashboard.png)
-*Comprehensive dashboard for managing all aspects of the salon.*
 
 ## 🤝 Contribution
 Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-## 📄 License
-None

@@ -38,14 +38,14 @@ if (isset($_POST['btn_submit'])) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'glamsalon001@gmail.com';
-        $mail->Password   = 'sfwxkgqsicztgdxb';
+        $mail->Username   = 'sandeeppal8471@gmail.com';
+        $mail->Password   = 'jesz huyb dlku mhoc';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
         //Recipients
-        $mail->setFrom('glamsalon001@gmail.com', 'Glam Salon');
-        $mail->addAddress('furkanshaikh2138@gmail.com', $fname);     //Add a recipient
+        $mail->setFrom('sandeeppal8471@gmail.com', 'Glam Salon');
+        $mail->addAddress($email, $fname);     //Add a recipient
 
         //Content
         $mail->isHTML(true);

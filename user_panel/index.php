@@ -47,7 +47,7 @@ if (isset($_POST['btn_appointment'])) {
             $mail->Port       = 587;
 
             // From and To
-            $mail->setFrom('glamsalon001@gmail.com', 'Glam Salon');
+            $mail->setFrom('sandeeppal8471@gmail.com', 'Glam Salon');
             $mail->addAddress($email, $fname);  // Send to user’s email
 
             // Email Content
